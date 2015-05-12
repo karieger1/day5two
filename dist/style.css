@@ -1,0 +1,32 @@
+a.hamburger {
+  content: "  ";
+  width: 24px;
+  background: black;
+  height: 3px;
+  display: block;
+  margin-bottom: 4px;
+}
+a.hamburger::before {
+  content: "  ";
+  width: 24px;
+  background: black;
+  height: 3px;
+  display: block;
+  margin-bottom:4px;
+}
+a.hamburger::after {
+  content: "  ";
+  width: 24px;
+  background: black;
+  height: 3px;
+  display: block;
+  margin-bottom:4px;
+}
+span {
+	content: "  ";
+  width: 24px;
+  background: black;
+  height: 3px;
+  display: block;
+  margin-bottom:4px;
+}
